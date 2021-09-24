@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palindrome Checker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="container">
+        <header>
+        <h1 class="title" >Birthday <span>Palindrome</span> Checker</h1>
+        <p class="subtitle" >Enter a birthday and we'll tell you if it's a palindrome.</p>
+        <p class="helper-text" > If the reverse of any Word/Number is same as the actual number then it's a Palindrome.</p>
+        <a href="#form"> Find Out</a>
+        </header>
+        <section class="form-container"  id="form">
+            <p class="subtitle date-formats">Please enter a date and we'll check if it's a Palindrome or not in all these formats:</p>
+            <p class="helper-text date-formats" > DDMMYYY, MMDDYYY, YYYYMMDD, DDMMYY, MMDDYY, YYMMDD </p>
+            <form class="form-grid" id="form">
+                <input type="date" name="birthday" id="date-input" placeholder="Birthday" class="input-date" required />
+                <button type="submit" class="btn" id="submitbtn" >Check Palindrome</button>
+                
+            </form>
+            <p class=" output-box" id="output-box" >
+                Here come's the Output
+            </p>
+        </section>
+    </main>
+
+    <script src="/Javascript/index.js" type="text/javascript" ></script>
+</body>
+</html>
